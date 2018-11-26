@@ -18,7 +18,7 @@ graph3 = { "1" : ["2","3","4"],
 		}
 
 
-def give_simp(graph):
+def give_simp(graph):								#finds the simplicial knot of a graph
 	i = 1
 	while i < (len(graph)+1):
 		n = graph[str(i)]						#n is knot whose simp is tested
